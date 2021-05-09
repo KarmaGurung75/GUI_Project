@@ -3,9 +3,9 @@ from tkinter import *
 root = Tk()
 
 root.title("Dark Calculator")
-#root.iconbitmap("D:/web/calcu.jpg")
+root.iconbitmap("D:/college/icon.ico")
 root["bg"]= "gray"
-e = Entry(root, width=35, borderwidth=5)
+e = Entry(root, width=50, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
 def button_click(number):
